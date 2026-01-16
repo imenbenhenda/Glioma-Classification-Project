@@ -1,0 +1,16 @@
+# --- Ignorer les données lourdes ---
+data/
+CGGA/
+*.nii
+*.nii.gz
+*.csv
+
+# --- Ignorer les fichiers temporaires Python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Ignorer les environnements virtuels (si tu en as) ---
+env/
+venv/
+.env
